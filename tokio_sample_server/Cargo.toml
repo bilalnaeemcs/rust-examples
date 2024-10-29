@@ -1,0 +1,9 @@
+[package]
+name = "tokio_sample_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.32", features = ["full"] }
+# or for minimal features:
+# tokio = { version = "1.32", features = ["rt", "rt-multi-thread", "macros", "net"] }
